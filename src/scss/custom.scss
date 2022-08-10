@@ -1,0 +1,89 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+// @import "media-blender";
+
+/* fonts */
+// @include font-face("Menlo", "/fonts/Menlo-Regular");
+// @include font-face("Pixeboy", "/fonts/Pixeboy");
+
+@font-face {
+	font-family: 'Menlo';
+	src: url('../../static/fonts/Menlo-Regular.otf');
+	src: url('../../static/fonts/Menlo-Regular.ttf');
+	src: url('../../static/fonts/Menlo-Regular.woff');
+	font-style: 'normal';
+	font-weight: 'normal';
+}
+
+@font-face {
+	font-family: 'Pixeboy';
+	src: url('../../static/fonts/Pixeboy.otf');
+	src: url('../../static/fonts/Pixeboy.ttf');
+	src: url('../../static/fonts/Pixeboy.woff');
+	font-style: 'normal';
+	font-weight: 'normal';
+}
+
+/* You can override the default Infima variables here. */
+:root {
+	--font-family: 'Menlo', sans-serif;
+	--font-family-alternative: 'Pixeboy', monospace;
+	--block-family-code: 'IBM Plex Mono', monospace;
+
+	--ifm-color-primary: #be1a60;
+	--ifm-color-primary-dark: #ab1756;
+	--ifm-color-primary-darker: #a11652;
+	--ifm-color-primary-darkest: #851243;
+	--ifm-color-primary-light: #d11d6a;
+	--ifm-color-primary-lighter: #db1e6e;
+	--ifm-color-primary-lightest: #e33580;
+
+	--ifm-code-font-size: 95%;
+	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+	--ifm-color-primary: #ff7800;
+	--ifm-color-primary-dark: #e66c00;
+	--ifm-color-primary-darker: #d96600;
+	--ifm-color-primary-darkest: #b35400;
+	--ifm-color-primary-light: #ff861a;
+	--ifm-color-primary-lighter: #ff8c26;
+	--ifm-color-primary-lightest: #ffa14d;
+	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+html,
+body,
+p {
+	font-family: var(--font-family);
+}
+
+h1,
+h2,
+h3,
+.navbar__brand {
+	font-family: var(--font-family-alternative);
+}
+
+.navbar__brand {
+	font-size: 2rem;
+}
+
+.hero__title {
+	font-size: 5rem;
+}
+
+.button {
+	border-radius: 0;
+	box-shadow: 10px 10px 0 0 black;
+}
+
+.button:focus:hover:active {
+	box-shadow: 5px 5px 0 0 black;
+}
