@@ -7,10 +7,13 @@ title: Recipe 1
 
 ### Let's write some code
 
+
 ```py
+
 Jupyter Jupyter Jupyter
 
 import solara as sol
 
 sol...
+
 ```
