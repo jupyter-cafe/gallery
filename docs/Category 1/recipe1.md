@@ -7,6 +7,7 @@ title: Recipe 1
 
 ### Let's write some code
 
+Below is a code block
 
 ```python
 
@@ -15,7 +16,5 @@ Jupyter Jupyter Jupyter
 import solara as sol
 
 sol...
-
-# Formatting issue on codeblack
 
 ```
