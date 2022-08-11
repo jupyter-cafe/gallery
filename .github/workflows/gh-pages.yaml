@@ -1,4 +1,6 @@
 name: 'Deploy to Github Pages'
+env:
+  NODE_ENV: production
 on:
   push:
     branches: ['master']
