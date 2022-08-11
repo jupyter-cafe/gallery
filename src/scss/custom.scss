@@ -4,29 +4,25 @@
  * work well for content-centric websites.
  */
 
-// @import "media-blender";
+@import './font-face';
 
 /* fonts */
-// @include font-face("Menlo", "/fonts/Menlo-Regular");
-// @include font-face("Pixeboy", "/fonts/Pixeboy");
 
-@font-face {
-	font-family: 'Menlo';
-	src: url('../../static/fonts/Menlo-Regular.otf');
-	src: url('../../static/fonts/Menlo-Regular.ttf');
-	src: url('../../static/fonts/Menlo-Regular.woff');
-	font-style: 'normal';
-	font-weight: 'normal';
-}
+@include font-face(
+	'Menlo',
+	'/fonts/Menlo-Regular',
+	'normal',
+	'normal',
+	otf ttf woff
+);
 
-@font-face {
-	font-family: 'Pixeboy';
-	src: url('../../static/fonts/Pixeboy.otf');
-	src: url('../../static/fonts/Pixeboy.ttf');
-	src: url('../../static/fonts/Pixeboy.woff');
-	font-style: 'normal';
-	font-weight: 'normal';
-}
+@include font-face(
+	'Pixeboy',
+	'/fonts/Pixeboy',
+	'normal',
+	'normal',
+	otf ttf woff
+);
 
 /* You can override the default Infima variables here. */
 :root {
