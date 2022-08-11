@@ -8,12 +8,14 @@ title: Recipe 1
 ### Let's write some code
 
 
-```py
+```python
 
 Jupyter Jupyter Jupyter
 
 import solara as sol
 
 sol...
+
+# Formatting issue on codeblack
 
 ```
