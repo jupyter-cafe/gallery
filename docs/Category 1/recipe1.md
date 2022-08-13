@@ -5,7 +5,7 @@ title: Recipe 1
 
 # Recipe 1
 
-### Let's write some code
+## Let's write some code
 
 Below is a code block
 
@@ -18,3 +18,17 @@ import solara as sol
 sol...
 
 ```
+
+### Here is another code block...
+
+```python
+
+Jupyter Jupyter Jupyter
+
+import solara as sol
+
+sol...
+
+```
+
+The end
