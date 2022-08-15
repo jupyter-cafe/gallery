@@ -9,8 +9,8 @@ const title = 'Jupyter Cafe Menu';
 const config = {
 	title,
 	tagline: 'Create & share Jupyter recipes online',
-	url: 'https://jupyter-cafe.github.io/',
-	baseUrl: '/menu/',
+	url: 'https://docs.jupyter.cafe',
+	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
 	// favicon: "img/favicons/favicon.png",
